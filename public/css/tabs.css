@@ -1,0 +1,42 @@
+#tabBlock{
+	text-align: center;
+	color: white;
+	padding: 10px 0;
+}
+.span-tab-thing{
+	display: inline-block;
+	padding: 4px 10px;
+	min-width:20%;
+	border: 1px solid white;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+}
+.span-tab-thing:hover{
+	color: #00d8ff;
+	border-color:  #00d8ff;
+}
+.on{
+	color: #00d8ff;
+	font-weight: bold;
+	border-color: #00d8ff;
+}
+
+.tabs-contents {
+	text-align:center;
+}
+.tabs-contents hr{
+	color: #ccc;
+}
+.block {
+	display:inline-block;
+	/*width:80%; */
+	padding:10px;
+	height: 90vh;
+	background-color: #fff;
+	border-radius: 5px; 
+}
+.block img{
+	
+	height: 100%;
+}
