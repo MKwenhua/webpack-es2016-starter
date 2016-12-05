@@ -1,15 +1,14 @@
 html {
-	box-sizing: border-box;
-	background: crimson;
+    box-sizing: border-box;
+    background: crimson;
 }
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
-    color:#fff;
+    color: #fff;
     font-family: 'Gotham', sans-serif;
     font-size: 14px;
     line-height: 1.5;
@@ -19,20 +18,35 @@ body {
     background: #3a4e5d;
     background: #eaecfa;
     position: relative;
-    min-height:100vh;
+    min-height: 100vh;
 }
-body.on-main-view{
+
+body.on-main-view {
     background: #222;
 }
+
 .hide-elm {
     display: none;
 }
+
 .center-text {
     text-align: center;
 }
-.color-white{
+
+.has-vid {
+    text-align: center;
+    margin-bottom: 10px;
+		color:crimson;
+}
+
+.has-vid video {
+    display: inline-block;
+}
+
+.color-white {
     color: #fff;
 }
-#videoBlock{
+
+#videoBlock {
     height: 85vh;
 }

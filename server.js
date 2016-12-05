@@ -1,8 +1,8 @@
 const express      = require('express');
 const fs           = require('fs');
-const ejs          = require('ejs'); 
+const ejs          = require('ejs');
 const app          = new express();
-const bodyParser   = require('body-parser'); 
+const bodyParser   = require('body-parser');
 const http         = require('http');
 const path         = require('path');
 const env          = process.env;
@@ -21,6 +21,9 @@ app.get('/', (req,res) => {
 		ulTitle: 'The Most Intelligent <i>Animals</i> Listed Below',
 		gifurl: 'images/cockatoo.gif'
 	});
+});
+app.get('/videos', (req,res) => {
+	res.render('videos');
 });
 
 let server = app.listen(env.NODE_PORT || 8000, env.NODE_IP || 'localhost', () => {

@@ -10,9 +10,8 @@ Webpack ES2016 for Northwestern Coding Bootcamp
 <hr>
 <p>After changing files just type: <pre>npm run bundlerun</pre> in the terminal, this will run gulp(for CSS bundling) and webpack to transpile and bundle your JS code.</p>
 
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid2.mp4" >
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid3.mp4" >
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid4.mp4" >
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid5.mp4" >
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid6.mp4" >
-<video src="https://s3.amazonaws.com/canvasmp3/es2015_vid7.mp4" >
+### Video Tutorials/Overviews
+<p> Since github does not allow Readme videos, I have included them on a route within the project
+<ol><li>First run the server: <pre>npm run bundlerun</pre></li>
+<li>Next go to: <pre>http://localhost:8000/videos</pre></li></ol>
+</p>
