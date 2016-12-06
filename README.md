@@ -15,4 +15,4 @@ Webpack ES2016 for Northwestern Coding Bootcamp
 <ol><li>First run the server: <pre>npm run bundlerun</pre></li>
 <li>Next go to: <pre>http://localhost:8000/videos</pre></li></ol>
 </p>
-<p><mark>note:</mark> In video #4 you may notice my several failed attempts at demostarting the difference between <b>NodeList</b> and an <b>Array</b> well the lattest release of Chrome earlier this year has added support for NodeList iteration you can read more about it here: <a href="https://medium.com/@devlucky/nodelist-object-is-finally-an-iterator-cc529d6e2490#.g8vwcqxhh" target="_blank">NodeList object is finally an Iterable</a></p>
+<p><mark style="background:#f7f7f7;font-weight:bold;">note:</mark> In video #4 you may notice my several failed attempts at demostarting the difference between <b>NodeList</b> and an <b>Array</b> well the lattest release of Chrome earlier this year has added support for NodeList iteration you can read more about it here: <a href="https://medium.com/@devlucky/nodelist-object-is-finally-an-iterator-cc529d6e2490#.g8vwcqxhh" target="_blank">NodeList object is finally an Iterable</a></p>
